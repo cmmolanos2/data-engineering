@@ -6,8 +6,6 @@ import time
 from sqlalchemy import create_engine
 
 
-PSQL_CONNSTRING = os.getenv("PSQL_CONNSTRING")
-
 # ─── Logging Setup ──────────────────────────────────────────────────────────────
 logging.basicConfig(
     level=logging.INFO,
