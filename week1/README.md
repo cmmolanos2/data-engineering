@@ -14,7 +14,7 @@ Extract data from [OpenF1 API](https://openf1.org), process data, and stores in 
 
 ### Postgres Database
 * Create tables following the schema:
-![alt text](week1_erd.png)
+![alt text](pictures/week1_erd.png)
 * Create these views:
     * Points:
         ```sql
